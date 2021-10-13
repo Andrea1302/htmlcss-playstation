@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* classi riutilizzate  */
+    /* bottone  */
+    .ms_button_type{
+        padding:4px 8px;
+        border-radius: 20px;
+    }
+
+/* Header  */
+
+
+    /* parte alta header  */
+    #ms_top_header{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        min-height:50px ;
+        padding-right:10px ;
+    }
+
+
+    #ms_top_header img{
+        width: 70px;
+        height: auto;
+        background-color: black;
+    }
+
+    /* parte bassa header (nav) */
+    #ms_font{
+        font-family:Helvetica, sans-serif;
+    }
+        /* Parte destra navbar  */
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+/* mediaquery lg+ */
+@media all and (min-width:992px){
+    header #ms_font{
+        font-size: 13px;
+    }
+    header #ms_right_navbar{
+        display: flex;
+        align-items: center;
+    }
+    #ms_right_navbar .ms_button_type{
+        margin: 0 8px;
+    }
+}
+
+/* mediaquery xs to md  */
+@media all and (max-width:991px){
+    #ms_right_navbar .ms_button_type{
+        margin: 10px 0;
+    }
+}
