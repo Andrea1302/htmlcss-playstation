@@ -12,7 +12,12 @@ body{
     }
 
 /* Header  */
-
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
     /* parte alta header  */
     #ms_top_header{
