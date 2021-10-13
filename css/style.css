@@ -80,7 +80,23 @@ header {
     #jumbotron h6{
         margin: 20px 0;
     }
-    
+
+/* Sottosezione jumbotron */
+#which_game{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#which_game .col{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#which_game img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
 
 
 
