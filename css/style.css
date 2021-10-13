@@ -78,6 +78,9 @@ header {
     #blocco_dentro_jumbotron{
         color: white;
     }
+    #blocco_dentro_jumbotron h2, #blocco_dentro_jumbotron h6 #blocco_dentro_jumbotron button{
+        font-weight: bold;
+    }
 
     #jumbotron #logo_returnal{
         width: 60%;
@@ -106,11 +109,13 @@ header {
 /* Main  */
 
 /* Presentazione playstation  */
-#blocco_ps5_presentazione{
-    margin-top: 50px;
-}
 #ms_playstation5_presentazione{
     margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#blocco_ps5_presentazione{
+    margin-top: 50px;
 }
 #ms_playstation5_presentazione #top_title{
     color: rgb(0, 0, 255);
@@ -123,8 +128,37 @@ header {
     margin: 20px 0;
 }
 
+/* It take two gioco  */
+#it_take_gioco{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    height: 956px;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+#container_it_take_gioco{
+    padding: 60px 0;
+}
 
+    #blocco_dentro_it_take_gioco{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 10px;
+    }
 
+    #it_take_gioco #logo_it_take_two{
+        width: 60%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #it_take_gioco h6{
+        margin: 20px 0;
+    }
+    #blocco_dentro_it_take_gioco h2, #blocco_dentro_it_take_gioco h6, #blocco_dentro_it_take_gioco button{
+        font-weight: bold;
+    }
 
 
 
