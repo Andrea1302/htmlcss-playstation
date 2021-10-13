@@ -6,6 +6,9 @@ body{
     .ms_button_type{
         padding:4px 8px;
         border-radius: 20px;
+        color: white;
+        background-color: blue;
+        border: none;
     }
 
 /* Header  */
@@ -31,8 +34,14 @@ body{
     /* parte bassa header (nav) */
     #ms_font{
         font-family:Helvetica, sans-serif;
+        padding:0 20px;
     }
+        /* parte sinistra header  */
+        
         /* Parte destra navbar  */
+        #ms_search_nav{
+            width: 20px;
+        }
         
         
 
@@ -49,9 +58,6 @@ body{
 
 /* mediaquery lg+ */
 @media all and (min-width:992px){
-    header #ms_font{
-        font-size: 13px;
-    }
     header #ms_right_navbar{
         display: flex;
         align-items: center;
