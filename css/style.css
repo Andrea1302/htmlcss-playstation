@@ -7,12 +7,19 @@ body{
         padding:4px 8px;
         border-radius: 20px;
         color: white;
-        background-color: blue;
+        background-color: rgb(43, 74, 248);
         border: none;
     }
     .ms_button_red{
         background-color: red;
     }
+    .ms_grey_color{
+        color: rgba(0, 0, 0, 0.596);
+    }
+    .ms_img100{
+        width: 100%;
+        height: auto;
+    } 
 
 /* Header  */
 header {
@@ -96,7 +103,25 @@ header {
     border-radius: 10px;
 }
 
+/* Main  */
 
+/* Presentazione playstation  */
+#blocco_ps5_presentazione{
+    margin-top: 50px;
+}
+#ms_playstation5_presentazione{
+    margin-top: 60px;
+}
+#ms_playstation5_presentazione #top_title{
+    color: rgb(0, 0, 255);
+}
+#ms_playstation5_presentazione #sottotitolo_ps5{
+    margin-top: 30px;
+}
+
+#blocco_ps5_presentazione #sperimenta_ps5{
+    margin: 20px 0;
+}
 
 
 
