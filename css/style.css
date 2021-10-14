@@ -295,8 +295,16 @@ footer{
 
 
 
-
-
+/* Sezione hover  */
+.ms_button_type:hover{
+    border:  2px solid white;
+    /* box-shadow: 0px 0px 10px 5px ; */
+    box-shadow: 0px 0px 10px 5px #888888;
+}
+#which_game img:hover{
+    border:  2px solid white;
+    box-shadow: 0px 0px 10px 5px ;
+}
 
 
 
