@@ -222,6 +222,28 @@ header {
         margin: 20px 0;
     }
 
+/* PS Now  */
+#play_now{
+    background-color:#171d3d;
+}
+    #play_now #logo_psnow{
+        width: 60%;
+        height: auto;
+    }
+    #play_now #col_sx_now{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #play_now #col_sx_now p{
+        margin: 30px 0;
+        color: white;
+    }
+    #botton_style_psnow{
+        background-color: white;
+        color: #000;
+    }
+
 /* mediaquery lg+ */
 @media all and (min-width:992px){
     header #ms_right_navbar{
@@ -252,6 +274,13 @@ header {
         padding-bottom: 50px;
     }
     #col_dx_psplus{
+        display: none;
+    }
+    #play_now{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #col_dx_psnow{
         display: none;
     }
 }
