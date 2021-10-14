@@ -19,7 +19,11 @@ body{
     .ms_img100{
         width: 100%;
         height: auto;
-    } 
+    }
+    button a{
+        text-decoration: none;
+        color: white;
+    }
 
 /* Header  */
 header {
