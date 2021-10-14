@@ -177,11 +177,49 @@ header {
     margin-bottom: 30px;
 }
 
+/* Esplora play 4  */
+#esplora_play_4{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+    #esplora_play_4 H6{
+        margin: 20px 0;
+    }
+    #esplora_play_4 .col{
+        margin: 30px 0;
+    }
 
+/* Playstation plus  */
+#playstation_plus{
+    background-color:#bebcbb;
+}
+#playstation_plus #logo_psplus{
+    width: 60%;
+    height: auto;
+}
+#playstation_plus #col_sx_plus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#playstation_plus #col_sx_plus p{
+    margin: 30px 0;
+}
+#col_sx_plus #botton_style_trasparent{
+    background-color:#d9dadc;
+    color: blue;
+}
 
-
-
-
+/* Playstore */
+#play_store{
+    padding: 50px 0;
+}
+    #play_store .col{
+        margin: 20px 0;
+    }
+    #play_store .ms_grey_color.text-center{
+        margin: 20px 0;
+    }
 
 /* mediaquery lg+ */
 @media all and (min-width:992px){
@@ -204,5 +242,15 @@ header {
 @media all and (max-width:991px){
     #ms_right_navbar .ms_button_type{
         margin: 10px 0;
+    }
+}
+/* mediaquery xs to sm  */
+@media all and (max-width:767px){
+    #playstation_plus{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #col_dx_psplus{
+        display: none;
     }
 }
