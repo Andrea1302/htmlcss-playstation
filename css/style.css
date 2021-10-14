@@ -327,6 +327,10 @@ footer{
         text-decoration: none;
         color: white;
     }
+    .nav-item.dropdown:hover #navbarDropdownMenuLink{
+        color: rgb(43, 74, 248);
+
+    }
 
 
 
