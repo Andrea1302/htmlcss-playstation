@@ -115,6 +115,9 @@ header {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    opacity: 0.7;
+    transition: all .5s;
+
 }
 
 /* Main  */
@@ -313,20 +316,25 @@ footer{
         box-shadow: 0px 0px 10px 5px #888888;
         transition: all .5s;
     }
+    button a:hover{
+        text-decoration: none;
+        color: white;
+    }
     /* hover sottosezione jumbotron immagini  */
     #which_game img:hover{
         border:  2px solid white;
         box-shadow: 0px 10px  20px #888888 ;
-        transition: all .5s;
+        /* transition: all .5s; */
+        opacity: 1;
+        position: relative;
+        bottom: 10px;
     }
     /* hover barra di ricerca ( navbar) */
     #search_item:hover #search_hover{
         display: inline-block;
     }
-    button a:hover{
-        text-decoration: none;
-        color: white;
-    }
+    
+    /* hover link  */
     .nav-item.dropdown:hover #navbarDropdownMenuLink{
         color: rgb(43, 74, 248);
 
