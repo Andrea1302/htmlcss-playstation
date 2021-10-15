@@ -14,17 +14,20 @@ body{
         background-color: red;
         color: white;
     }
-    .ms_grey_color{
-        color: rgba(0, 0, 0, 0.596);
-    }
-    .ms_img100{
-        width: 100%;
-        height: auto;
-    }
     button a{
         text-decoration: none;
         color: white;
     }
+    /* colore testo grigio  */
+    .ms_grey_color{
+        color: rgba(0, 0, 0, 0.596);
+    }
+    /* Immagini  */
+    .ms_img100{
+        width: 100%;
+        height: auto;
+    }
+    
 
 /* Header  */
 header {
@@ -182,16 +185,16 @@ header {
     padding: 20px 0;
     color: white;
 }
-#nuove_uscite img{
-    margin-bottom: 8px;
-    border-radius: 15px;
-}
-#nuove_uscite h5{
-    margin: 20px 0;
-}
-#nuove_uscite .col{
-    margin-bottom: 30px;
-}
+    #nuove_uscite img{
+        margin-bottom: 8px;
+        border-radius: 15px;
+    }
+    #nuove_uscite h5{
+        margin: 20px 0;
+    }
+    #nuove_uscite .col{
+        margin-bottom: 30px;
+    }
 
 /* Esplora play 4  */
 #esplora_play_4{
@@ -209,22 +212,22 @@ header {
 #playstation_plus{
     background-color:#bebcbb;
 }
-#playstation_plus #logo_psplus{
-    width: 60%;
-    height: auto;
-}
-#playstation_plus #col_sx_plus{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-#playstation_plus #col_sx_plus p{
-    margin: 30px 0;
-}
-#col_sx_plus #botton_style_trasparent{
-    background-color:#d9dadc;
-    color: blue;
-}
+    #playstation_plus #logo_psplus{
+        width: 60%;
+        height: auto;
+    }
+    #playstation_plus #col_sx_plus{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #playstation_plus #col_sx_plus p{
+        margin: 30px 0;
+    }
+    #col_sx_plus #botton_style_trasparent{
+        background-color:#d9dadc;
+        color: blue;
+    }
 
 /* Playstore */
 
@@ -278,7 +281,7 @@ footer{
     padding: 50px 0;
     color: white;
 }
-
+    /* parte alta footer  */
     footer #globoimg{
         width: 20px;
         height: auto;
@@ -381,13 +384,13 @@ footer{
     }
 }
 
-/* mediaquery xs to md  */
+/* mediaquery from xs to md  */
 @media all and (max-width:991px){
     #ms_right_navbar .ms_button_type{
         margin: 10px 0;
     }
 }
-/* mediaquery xs to sm  */
+/* mediaquery from xs to sm  */
 @media all and (max-width:767px){
     #playstation_plus{
         padding-top: 50px;
